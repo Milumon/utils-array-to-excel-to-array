@@ -43,10 +43,10 @@ const getArrayFromExcelFile = (path) => {
     })
 
 
-    console.log("MIEMBROS ACTUALES EN SUNLIGHT (GO1) CON CORREO @improbable.io: " + currentArray.length)
-    console.log("CANTIDAD DE USUARIOS EN LA LISTA CON CORREO @improbable.io: " + whitelistArray.length)
-    console.log("MIEMBROS ACTUALES EN SUNLIGHT (GO1) CON CORREO @improbable.io EN LA LISTA: " + emailsIncludedArray.length)
-    console.log("MIEMBROS ACTUALES EN SUNLIGHT (GO1) CON CORREO @improbable.io FUERA DE LA lista: " + deleteEmailArray.length)
+    console.log(currentArray.length)
+    console.log(whitelistArray.length)
+    console.log(emailsIncludedArray.length)
+    console.log(deleteEmailArray.length)
 
     return { whitelistArray, currentArray, deleteEmailArray, emailsIncludedArray }
 }
